@@ -33,7 +33,6 @@ mas_avoid_usage_of_setapplicationisdaemon_and.patch
 mas_use_public_apis_to_determine_if_a_font_is_a_system_font.patch
 chrome_key_systems.patch
 add_didinstallconditionalfeatures.patch
-desktop_media_list.patch
 proxy_config_monitor.patch
 gritsettings_resource_ids.patch
 isolate_holder.patch
@@ -106,3 +105,4 @@ logging_win32_only_create_a_console_if_logging_to_stderr.patch
 disable_use_lld_for_macos.patch
 fix_fix_the_build_on_windows_on_arm.patch
 fix_media_key_usage_with_globalshortcuts.patch
+replace_chrome_grit_with_electron_grit_in_native_desktop_media_list.patch
