@@ -13,7 +13,7 @@ index b85067a12bd86d54a751be119ff16c2683984d02..883d31f7264fdc4fa40c7337ec2fb94e
    defines = []
    deps = []
  
-+  if (is_win) {
++  if (is_win && !is_component_build) {
 +    defines += [ "ZLIB_DLL" ]
 +  }
 +
